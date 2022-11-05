@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    font-family: 'Rubik', sans-serif;
+
+}
+a{
+    font-family: 'Rubik', sans-serif;
+
+}
+.btn-pink{
+    font-size: 12px;
+    padding: 14px 32px;   
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    line-height: normal;
+    border-radius: 2rem;
+    background-color: #f848c4;
+    border: 1px solid #f848c4;
+    color: #fff
+}
+header{
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%);
+}
+header .nav-wrapper{
+    padding: 0.70rem 0;
+}
+.nav-wrapper img{
+    margin-top: -17px;
+}
+.navbar-nav{
+    margin-top: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+.navbar ul{
+    padding-left: 0.6rem;
+}
+.navbar ul>li{
+    padding-right: 30px;
+}
+.navbar ul>li .nav-link{
+    color: #333 !important;
+}
+.navbar .nav-link {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+.navbar .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #333;
+    transition: width .3s;
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
+}
+.hero-section .section-one-header{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 300;
+    color: #3b373a;
+    padding: 2.5rem 0 2rem 0;
+}
+.hero-section .section-sub-header{
+    color: #3b373a;
+
+}
+.hero-section .section-one-header .typewrite{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color:#3b373a;
+
+}
+
+.hero-section h2{
+    font-family: 'Caveat', cursive;
+
+}
+.hero-section .cta-section{
+    margin: 1.5rem 0 0 0;
+}
+.hero-section .cta-section .cta-img{
+    max-width: 160px;
+    margin: 0 10px;
+}
+.hero-section .hero-bg {
+    height: 516px;
+    background-position: bottom center !important;
+}
+
+.section-two{
+        background: #ffe6f7 url(https://www.tribegroup.co/hubfs/Website/creator/creator-bg-desktop-pink-grid.svg);
+        position: relative;
+        z-index: 100;
+}
+/* .section-two-container{
+    padding: 120px 10px 120px;
+} */
+    
+.text-content .content-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #3b373a;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+    max-width: 280px;
+}
+.text-content .content-title span {
+    font-weight: 700;
+}
+.text-content .sub-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+    color: #7a7a7a;
+    margin: 0 0 2rem 0;
+}
+.section-two-container .wrapper{
+    border-radius: 8px;
+    max-width: 1350px;
+    position: relative !important;
+    z-index: 101;
+    top: -100px;
+}
+.section-two-container .wrapper::before{
+    content: '';
+    background-image: url(https://www.tribegroup.co/hubfs/Website/creator/creator-craft-content.svg);
+    position: absolute;
+    top: -13%;
+    width: 201px;
+    left: -5%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-origin: center;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.section-two-container{
+    
+    position: relative;
+    
+}
+
+.cs-social li {
+    margin-right: 10px;
+}
+
+.right-btns a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #3b373a;
+    display: block;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.67;
+    
+}
